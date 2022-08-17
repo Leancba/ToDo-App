@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "Todo-App",
-    "slug": "Todo-App",
+    "name": "ToDo-App",
+    "slug": "ToDo-App",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Icono.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/Splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0175b0"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,9 +22,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.leancba.TodoApp", "versionCode" : 2
     },
     "web": {
       "favicon": "./assets/favicon.png"
